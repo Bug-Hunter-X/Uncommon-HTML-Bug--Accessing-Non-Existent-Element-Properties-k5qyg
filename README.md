@@ -1,0 +1,1 @@
+This repository demonstrates an uncommon bug in HTML related to accessing properties of elements that are null or do not exist. The bug occurs when attempting to access properties of an element that was not found using `document.getElementById` or when dealing with elements that are initially null. The solution involves checking for null values before accessing properties.
